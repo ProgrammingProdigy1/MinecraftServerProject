@@ -1,0 +1,32 @@
+name: YonatanServer
+main: Server.main.ServerMain
+version: 1.0
+website:
+author: Yonatan
+commands:
+  kit:
+  fakeop:
+  fakejoin:
+  MOTD:
+  tp:
+  setspawn:
+  spawn:
+  balance:
+  loan:
+  withraw:
+  warn:
+  mailadress:
+  mail:
+  mark:
+  playerAdd:
+  placeChest:
+permissions:
+  motd.*:
+    children:
+      motd.set: true
+    default: op
+  motd.set:
+    default: op
+  motd.systemset:
+    default: op
+api-version: 1.16

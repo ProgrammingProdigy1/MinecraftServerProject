@@ -1,0 +1,7 @@
+motd: 
+  message: "&3Welcome to the server! Enjoy!"
+  system: "&3First Pro Server"
+spawn:
+  x: 0
+  y: 0
+  z: 0
